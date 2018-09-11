@@ -1,0 +1,17 @@
+#define IDM_INTRO 1 
+#define IDM_GIT 2 
+#define IDM_CLEAR 3
+#define IDM_EXIT 4
+
+FirstMenu MENU 
+{ 
+ POPUP "&Menu" 
+        { 
+         MENUITEM "&Help",IDM_INTRO 
+         MENUITEM "Visit &Github", IDM_GIT 
+         MENUITEM SEPARATOR 
+         MENUITEM "Clear &All ", IDM_CLEAR
+         MENUITEM SEPARATOR 
+         MENUITEM "E&xit",IDM_EXIT 
+        }
+} 
